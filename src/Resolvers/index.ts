@@ -1,7 +1,8 @@
 import { NonEmptyArray } from "type-graphql";
-import ClientResolver from "./Client.resolver";
-import Authentication from "./Auth.resolver";
-import CompanyResolver from "./Company.resolver";
+import { CategoryResolver } from "./Category/Category.resolver";
+import FoodResolver from "./Category/Food.resolver";
+import OrderResolver from "./Order/Order.resolver";
+import IngredientResolver from "./Category/Ingredient.resolver";
+import ListOfIngredientResolver from "./Category/ListOfIngredient.resolver";
 
-
-export default [ClientResolver,Authentication,CompanyResolver] as NonEmptyArray<Function> | NonEmptyArray<string>;
+export default [CategoryResolver, FoodResolver, OrderResolver, IngredientResolver,ListOfIngredientResolver] as NonEmptyArray<Function> | NonEmptyArray<string>;

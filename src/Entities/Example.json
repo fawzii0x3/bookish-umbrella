@@ -1,0 +1,108 @@
+{
+  "Categories": [
+    {
+      "id": 166,
+      "name": "Sandwich",
+      "foods": [
+        {
+          "id": 15,
+          "name": "sandwich chawarma",
+          "price": 15.7
+        },
+        {
+          "id": 18,
+          "name": "sandwich kabab",
+          "price": 16.9
+        },
+        {
+          "id": 1,
+          "name": "sandwich mermez",
+          "price": 1.57
+        },
+        {
+          "id": 2,
+          "name": "sandwich scallop",
+          "price": 18.7
+        }
+      ],
+      "listOflistIngredient": [
+        {
+          "id": 815,
+          "name": "sauce",
+          "ingredients": [
+            {
+              "id": 165,
+              "name": "ketchup",
+              "default quantity": 2,
+              "max quantity": 5,
+              "startAddPrice": 3,
+              "addPriceByUnit": 0.2
+            },
+            {
+              "id": 15,
+              "name": "Mayonaise",
+              "default quantity": 2,
+              "max quantity": 5,
+              "startAddPrice": 3,
+              "addPriceByUnit": 0.2
+            },
+            {
+              "id": 16,
+              "name": "Algerien",
+              "default quantity": 2,
+              "max quantity": 5,
+              "startAddPrice": 3,
+              "addPriceByUnit": 0.8
+            },
+            {
+              "id": 65,
+              "name": "Hrisa",
+              "default quantity": 2,
+              "max quantity": 5,
+              "startAddPrice": 4,
+              "addPriceByUnit": 0.9
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "meat",
+          "ingredients":[
+            {
+                "id": 18,
+                "name": "pork",
+                "default quantity": 2,
+                "max quantity": 15,
+                "startAddPrice": 1,
+                "addPriceByUnit": 3
+              },
+              {
+                "id": 90,
+                "name": "beef burger",
+                "default quantity": 2,
+                "max quantity": -1,
+                "startAddPrice": 1,
+                "addPriceByUnit": 2
+              },
+              {
+                "id": 51,
+                "name": "scallop",
+                "default quantity": 2,
+                "max quantity": 20,
+                "startAddPrice": 1,
+                "addPriceByUnit": 15.8
+              },
+              {
+                "id": 300,
+                "name": "Chicken",
+                "default quantity": 2,
+                "max quantity": 5,
+                "startAddPrice": 1,
+                "addPriceByUnit": 10
+              }
+          ]
+        }
+      ]
+    }
+  ]
+}

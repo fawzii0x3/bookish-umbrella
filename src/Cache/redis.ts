@@ -1,18 +1,15 @@
 import RedisStore from "connect-redis";
-import Redis from "ioredis";
+import { createClient } from "redis";
 
 // Initialize client.
-const redis = new Redis(
-  {
-    host: "redis",
-  }
-);
+const redis = createClient({
+  url:"redis://redis:6379"
+});
 
 // Initialize store.
 const redisStore = new RedisStore({
   disableTouch: true,
   client: redis,
-  prefix: "myapp:",
 });
 
 export { redis, redisStore };

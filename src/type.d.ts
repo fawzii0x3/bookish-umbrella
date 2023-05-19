@@ -6,7 +6,7 @@ export { };
 
 export global {
   interface MyContext {
-    req: Request & { session: { clientId: number,companyId: number } };
+    req: Request & { session: { userId:number } };
     res: Response;
     db: DataSource;
     redis: Redis

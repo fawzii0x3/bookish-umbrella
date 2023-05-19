@@ -12,6 +12,7 @@ interface ApolloServerProps {
 
 export default ({ httpServer, schema, serverCleanup }: ApolloServerProps): ApolloServerOptions<BaseContext> => ({
   schema,
+  csrfPrevention:false,
   plugins: [
     // Proper shutdown for the HTTP server.
     ApolloServerPluginDrainHttpServer({ httpServer }),
